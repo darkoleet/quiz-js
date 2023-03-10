@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title> 
+    <link rel="icon" href="/images/brain.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">Quiz App</p>
+                <p class="subtitle">Daily quiz to test your knowledge!</p>
+            </div>
+            <div class="result hide">
+                <p></p>
+                <p class="reload" onclick="reloadButton()"><button>Try Again?</button>
+                </p>
+                
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. Who painted the Mona Lisa?</p>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="">Leonardo Da Vinci</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B">
+                        <label for="">Van Gogh</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C">
+                        <label for="">Michelangello</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="D">
+                        <label for="">Picasso</label>
+                    </div>
+                </div>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>2. Where did the Vikings come from?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label for="">Sweden</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B">
+                        <label for="">Norway</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="C">
+                        <label for="">Denmark</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="D">
+                        <label for="">All of the above</label>
+                    </div>
+                </div>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>3. What year did the Titanic sink?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label for="">1902</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B">
+                        <label for="">1912</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C">
+                        <label for="">1922</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="D">
+                        <label for="">1910</label>
+                    </div>
+                </div>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>4. What does "phelanges" refer to</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label for="">Fingers</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B">
+                        <label for="">Ears</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="C">
+                        <label for="">Nipples</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="D">
+                        <label for="">Nostrils</label>
+                    </div>
+                </div>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>5. Which continent is the largest: Asia, Africa, or Antarctica?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label for="">North America</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B">
+                        <label for="">Africa</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C">
+                        <label for="">Asia</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="D">
+                        <label for="">Antarctica</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
